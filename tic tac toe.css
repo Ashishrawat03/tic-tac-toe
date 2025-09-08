@@ -120,3 +120,66 @@ body{
   .popup.hidden {
     display:  none;
   }
+
+  /* Responsive styles for smartphone screens (max-width: 412px) */
+@media (max-width: 412px) {
+  body {
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  .heading {
+    width: 90vw;
+    margin-left: 0;
+    font-size: 1.2rem;
+    margin-top: 2vh;
+  }
+  .container {
+    width: 95vw;
+    height: 55vw;
+    margin-left: 0;
+    margin-top: 4vh;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px 2px rgba(48, 48, 44, 0.5);
+  }
+  .box {
+    width: 28vw;
+    height: 28vw;
+    font-size: 2.5rem;
+    margin-top: 2vw;
+    border-radius: 10px;
+  }
+  .reset {
+    width: 40vw;
+    height: 7vh;
+    margin-left: 0;
+    margin-top: 3vh;
+    font-size: 1.1rem;
+    border-radius: 10px;
+  }
+  .win {
+    width: 60vw;
+    height: 6vh;
+    margin-left: 0;
+    margin-top: 2vh;
+    font-size: 1.1rem;
+    border-radius: 10px;
+  }
+  .popup-content {
+    width: 90vw;
+    height: 40vh;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .popup-content h2 {
+    font-size: 2rem;
+    margin-top: 10vh;
+  }
+  #popup-close {
+    width: 20vw;
+    height: 6vh;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+}
