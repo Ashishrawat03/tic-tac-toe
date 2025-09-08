@@ -1,13 +1,16 @@
 body{
     background-color: #d3d3d3;
-    background-image: url('tic.jpg.jpg')
+    background-image: url('tbsm.png')
 }
 .heading{
     width: 22vh;
-    border: 2px solid palevioletred;
+    border: 2px solid;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     margin-left:83vh;
-    background-color: pink;
+    background-color: rgb(102, 116, 197);
 }
 .container{
     height: 53vh;
